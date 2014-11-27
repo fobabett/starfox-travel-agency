@@ -5577,7 +5577,8 @@ th.hide-for-touch {
   #page_header #medium_up_nav {
     list-style-type: none;
     text-align: center;
-    text-decoration: none; }
+    text-decoration: none;
+    padding: 10px; }
   #page_header li {
     display: inline;
     font-size: 12px;
@@ -5586,6 +5587,17 @@ th.hide-for-touch {
       color: #8EC5C5; }
     #page_header li a:hover {
       color: #FFFFFF; }
+
+#content_container #hero_banner {
+  background-color: #8EC5C5;
+  margin: 30px;
+  border-radius: 5px; }
+  #content_container #hero_banner #hero_banner_left {
+    float: left;
+    width: 70%; }
+  #content_container #hero_banner #hero_banner_right {
+    float: right;
+    width: 30%; }
 
 footer {
   background-color: #272727;
