@@ -5574,6 +5574,18 @@ th.hide-for-touch {
     border-radius: 5px; }
     #page_header nav .top-bar .right {
       border-radius: 5px; }
+  #page_header #medium_up_nav {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none; }
+  #page_header li {
+    display: inline;
+    font-size: 12px;
+    padding: 20px; }
+    #page_header li a {
+      color: #8EC5C5; }
+    #page_header li a:hover {
+      color: #FFFFFF; }
 
 footer {
   background-color: #272727;

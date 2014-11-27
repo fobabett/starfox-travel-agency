@@ -30,6 +30,23 @@ $darkgray: #272727;
       border-radius: 5px;
     }
   }
+  #medium_up_nav {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+  }
+  li {
+    display: inline;
+    font-size: 12px;
+    padding: 20px;
+    a {
+      color: $blue;
+    }
+    a:hover {
+      color: #FFFFFF;
+    }
+  }
+
 }
 #content_block {
 
