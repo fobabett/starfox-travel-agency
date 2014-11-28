@@ -57,10 +57,24 @@ $darkgray: #272727;
     #hero_banner_left {
       float: left;
       width: 70%;
+      padding: 30px;
+      // border: 2px solid red;
+      p {
+        // border: 2px solid blue;
+        font-size: 20px;
+      }
     }
     #hero_banner_right {
       float: right;
       width: 30%;
+      #button {
+        background-color: $gray;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 12px;
+        border-bottom: thick solid $darkgray;
+        padding: 10px;
+      }
     }
   }
 }
