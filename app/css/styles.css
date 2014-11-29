@@ -5614,8 +5614,10 @@ th.hide-for-touch {
       padding: 10px; }
 #content_container .travel_box {
   background-color: #535353;
-  height: 100px;
-  width: 200px; }
+  height: 220px;
+  width: 220px;
+  border-radius: 5px;
+  margin-bottom: 30px; }
 
 footer {
   background-color: #272727;

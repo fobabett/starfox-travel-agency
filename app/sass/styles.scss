@@ -70,6 +70,9 @@ $darkgray: #272727;
     #hero_banner_right {
       float: right;
       width: 30%;
+      #hero_ship {
+
+      }
       #button {
         background-color: $gray;
         text-align: center;
@@ -82,8 +85,10 @@ $darkgray: #272727;
   }
   .travel_box {
     background-color: $gray;
-    height: 100px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
+    border-radius: 5px;
+    margin-bottom: 30px;
   }
 }
 
