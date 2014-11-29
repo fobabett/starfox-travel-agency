@@ -12,14 +12,12 @@ $darkgray: #272727;
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
+  text-align: center;
   & h1 {
     font-size: 20px;
     text-align: center;
   }
   #logo_starfox {
-    color: $black;
-  }
-  #logo_intergalatic {
     color: $black;
   }
   nav {
@@ -76,6 +74,11 @@ $darkgray: #272727;
         padding: 10px;
       }
     }
+  }
+  .travel_box {
+    background-color: $gray;
+    height: 100px;
+    width: 200px;
   }
 }
 

@@ -5561,13 +5561,12 @@ th.hide-for-touch {
   background-color: #8EC5C5;
   padding-top: 40px;
   padding-left: 50px;
-  padding-right: 50px; }
+  padding-right: 50px;
+  text-align: center; }
   #page_header h1 {
     font-size: 20px;
     text-align: center; }
   #page_header #logo_starfox {
-    color: #080000; }
-  #page_header #logo_intergalatic {
     color: #080000; }
   #page_header nav {
     background-color: #272727;
@@ -5608,6 +5607,10 @@ th.hide-for-touch {
       font-size: 12px;
       border-bottom: thick solid #272727;
       padding: 10px; }
+#content_container .travel_box {
+  background-color: #535353;
+  height: 100px;
+  width: 200px; }
 
 footer {
   background-color: #272727;
