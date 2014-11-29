@@ -5559,15 +5559,10 @@ th.hide-for-touch {
 #page_header {
   background-image: url('/assets/header_bg.png');
   background-color: #8EC5C5;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
-  text-align: center;
-  border: 2px solid red; }
+  text-align: center; }
   #page_header h1 {
     font-size: 20px;
     text-align: center; }
@@ -5596,15 +5591,24 @@ th.hide-for-touch {
   background-color: #8EC5C5;
   margin: 30px;
   border-radius: 5px; }
+  @media only screen and (min-width:40.063em) and (max-width:64em) {
+    #content_container #hero_banner {
+      height: 400px; } }
   #content_container #hero_banner #hero_banner_left {
     float: left;
     width: 70%;
     padding: 30px; }
     #content_container #hero_banner #hero_banner_left p {
       font-size: 20px; }
+      @media only screen and (min-width:40.063em) and (max-width:64em) {
+        #content_container #hero_banner #hero_banner_left p {
+          text-align: center;
+          margin: 30px;
+          font-size: 20px; } }
   #content_container #hero_banner #hero_banner_right {
     float: right;
-    width: 30%; }
+    width: 30%;
+    text-align: center; }
     #content_container #hero_banner #hero_banner_right #button {
       background-color: #535353;
       text-align: center;

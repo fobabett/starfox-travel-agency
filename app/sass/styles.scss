@@ -9,15 +9,11 @@ $darkgray: #272727;
 #page_header {
   background-image: url('/assets/header_bg.png');
   background-color: $blue;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
-  border: 2px solid red;
+  // border: 2px solid red;
   & h1 {
     font-size: 20px;
     text-align: center;
@@ -54,24 +50,33 @@ $darkgray: #272727;
 }
 #content_container {
   #hero_banner {
+    @media #{$medium-only} { 
+      height: 400px;
+    }
     background-color: $blue;
     margin: 30px;
     border-radius: 5px;
     #hero_banner_left {
+      // @media #{$xxlarge-only} { 
       float: left;
       width: 70%;
       padding: 30px;
-      // border: 2px solid red;
+      // }
       p {
-        // border: 2px solid blue;
+        @media #{$medium-only} { 
+          text-align: center;
+          margin: 30px;
+          font-size: 20px;
+        }
         font-size: 20px;
       }
     }
     #hero_banner_right {
       float: right;
       width: 30%;
+      text-align: center;
       #hero_ship {
-
+        
       }
       #button {
         background-color: $gray;
