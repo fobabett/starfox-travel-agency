@@ -9,10 +9,15 @@ $darkgray: #272727;
 #page_header {
   background-image: url('/assets/header_bg.png');
   background-color: $blue;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
+  border: 2px solid red;
   & h1 {
     font-size: 20px;
     text-align: center;
