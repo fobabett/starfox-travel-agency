@@ -5,7 +5,7 @@ var app = express();
 app.use(express.static('public'));
 
 app.get('/', function(rew, res) {
-
+  res.render('./views');
 });
 // EXPORT THIS FILE AS A MODULE
 module.exports.app = app;
